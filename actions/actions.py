@@ -1,4 +1,3 @@
-# AIzaSyD4jUhcGZMrHEObG2Dmsa-3ifklFxD-QSM
 import os
 import json
 from typing import Text, Dict, Any, List
