@@ -6,9 +6,14 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet, UserUtteranceReverted
 
+# ✅ SETUP GEMINI API — MUST BE AT FILE LEVEL BEFORE ANY MODEL USAGE
 import google.generativeai as genai
+genai.configure(api_key="AIzaSyC5dxBOcVON1srncD0fu1PTqSyyZYrEYuk")  # 🔐 HARD-CODED
 
-# --- Load business info from JSON file ---
+# ✅ LOAD MODEL IMMEDIATELY AT FILE LEVEL
+gemini_model = genai.GenerativeModel("gemini-2.0-flash")
+
+# ✅ Load business info
 def load_business_info() -> dict:
     file_path = os.path.join(os.path.dirname(__file__), "business_info.json")
     try:
@@ -18,14 +23,10 @@ def load_business_info() -> dict:
         print("[ERROR] Could not load business info:", e)
         return {}
 
-# --- Gemini LLM Fallback Action ---
+# ✅ Gemini fallback action
 class ActionLlmFallback(Action):
     def name(self) -> Text:
         return "action_llm_fallback"
-
-    def __init__(self):
-        genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-        self.model = genai.GenerativeModel("gemini-2.0-flash")
 
     async def run(
         self,
@@ -34,33 +35,21 @@ class ActionLlmFallback(Action):
         domain: Dict[Text, Any]
     ) -> List[Dict[Text, Any]]:
 
-        # ✅ Grab current message and last message
         user_message = tracker.latest_message.get("text", "").strip()
         if not user_message:
             dispatcher.utter_message(text="Sorry, I didn’t catch that. Could you rephrase?")
             return [UserUtteranceReverted()]
 
-        user_message_lower = user_message.lower()
         last_user_input = tracker.get_slot("last_user_input") or ""
-
-        print("[DEBUG] User input:", user_message)
-        print("[DEBUG] Last input from slot:", last_user_input)
-
-        # ✅ Detect repeated input
-        if user_message_lower == last_user_input.lower():
+        if user_message.lower() == last_user_input.lower():
             dispatcher.utter_message(text="You've already asked that. Try something else?")
             return [UserUtteranceReverted()]
 
-        # ✅ Load business context
         business = load_business_info()
         if not business:
             dispatcher.utter_message(text="Sorry, I couldn't access business info.")
-            return [
-                SlotSet("last_user_input", user_message),
-                UserUtteranceReverted()
-            ]
+            return [SlotSet("last_user_input", user_message), UserUtteranceReverted()]
 
-        # ✅ Prompt Gemini
         prompt = (
             f"You are Evas, a chatbot assistant for {business.get('business_name')}.\n\n"
             f"{json.dumps(business, indent=2)}\n\n"
@@ -70,16 +59,15 @@ class ActionLlmFallback(Action):
         )
 
         try:
-            response = self.model.generate_content(prompt)
+            response = gemini_model.generate_content(prompt)
             reply = response.text.strip()
             if not reply:
                 reply = "Sorry, I couldn't generate a response right now."
         except Exception as e:
+            import traceback
+            traceback.print_exc()
             print("[ERROR] Gemini API failed:", e)
             reply = "Sorry, something went wrong with my response."
 
         dispatcher.utter_message(text=reply)
-        return [
-            SlotSet("last_user_input", user_message),
-            UserUtteranceReverted()
-        ]
+        return [SlotSet("last_user_input", user_message), UserUtteranceReverted()]
