@@ -13,3 +13,6 @@ __pycache__/
 
 # Node modules (if any)
 node_modules/
+
+#API 
+.env
