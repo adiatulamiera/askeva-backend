@@ -1,0 +1,24 @@
+version: "3.1"
+
+rules:
+- rule: Handle fallback with Gemini once
+  steps:
+    - intent: nlu_fallback
+    - action: action_llm_fallback
+    - action: action_listen
+
+- rule: Answer pricing/package inquiry
+  steps:
+    - intent: ask_pricing_or_packages
+    - action: utter_ask_pricing_or_packages
+
+- rule: Answer booking process
+  steps:
+    - intent: ask_booking_process
+    - action: utter_ask_booking_process
+
+- rule: Greet and respond
+  steps:
+    - intent: greet
+    - action: utter_greet
+

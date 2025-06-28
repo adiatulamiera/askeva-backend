@@ -1,0 +1,46 @@
+version: "3.1"
+
+intents:
+  - ask_what_are_color_seasons
+  - ask_season_subtypes
+  - ask_how_is_color_season_determined
+  - ask_makeup_requirement
+  - ask_session_duration
+  - ask_palette_given
+  - ask_virtual_session_available
+  - ask_what_to_wear
+  - ask_is_color_analysis_inclusive
+  - ask_post_session_recommendations
+  - ask_payment_method
+  - ask_location_or_availability
+  - ask_rescheduling_or_cancellation
+  - ask_target_audience
+  - ask_extras_or_addons
+  - ask_pricing_or_packages
+  - ask_booking_process
+  - greet
+  - nlu_fallback
+
+actions:
+  - action_llm_fallback
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you with colour analysis today?"
+
+  utter_ask_pricing_or_packages:
+    - text: "Our packages range from RM49 to RM249 depending on the service. Would you like a breakdown?"
+
+  utter_ask_booking_process:
+    - text: "You can book through our website or DM us on Instagram. Payment confirms your slot!"
+
+slots:
+  last_user_input:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: custom
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,174 @@
+#  .\rasa_env\Scripts\Activate
+# Tell the bot "What are they asking?" - helps Rasa understand user intent
+
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - assalamualaikum
+    - salam
+    - good morning
+
+- intent: ask_what_are_color_seasons
+  examples: |
+    - Can you explain Spring, Summer, Autumn, Winter?
+    - What are the seasonal colour types?
+    - What does it mean to be a Summer or Autumn?
+    - Can you describe the four seasons in colour analysis?
+    - What are the types of seasonal analysis?
+    - Explain to me the colour season thing
+    - Apa maksud musim warna tu?
+    - Musim warna tu macam mana?
+    - Colour season ni apa sebenarnya?
+    - What season am I in style?
+
+- intent: ask_season_subtypes
+  examples: |
+    - What's the difference between warm and cool seasons?
+    - What kind of colours does each season wear?
+    - Are there soft and deep versions of each season?
+    - Is a cool winter different from a warm autumn?
+    - What is soft summer vs clear spring?
+    - Adakah ada musim sejuk yang cool dan warm?
+    - Explain cool vs warm in colour analysis
+    - Apakah beza cool dan warm season?
+    - Is warm autumn the same as deep autumn?
+
+- intent: ask_how_is_color_season_determined
+  examples: |
+    - How do you determine my season?
+    - What factors do you look at to find my colours?
+    - Is it based on my skin tone?
+    - Do you look at my eyes and hair too?
+    - What is the analysis based on?
+    - How do you decide whether I'm warm or cool?
+    - Will you test different colours on me?
+    - Is lighting involved in the process?
+    - Season saya ditentukan macam mana?
+    - You tengok apa untuk tahu season saya?
+
+- intent: ask_makeup_requirement
+  examples: |
+    - Should I come without makeup?
+    - Can I wear lipstick to the session?
+    - Do I need to remove my foundation?
+    - Is it okay to have a little makeup on?
+    - Must I be completely barefaced?
+    - Can I wear mascara?
+    - Should I bring makeup remover?
+    - Is light concealer allowed?
+    - Kena datang bare face ke?
+    - Boleh ke pakai light makeup?
+    - Can pakai eyeliner?
+
+- intent: ask_session_duration
+  examples: |
+    - How long does the session take?
+    - Is it a long session?
+    - Do I need to take half a day off?
+    - What's the estimated duration?
+    - Will it take hours?
+    - How much time should I set aside?
+    - Is it less than an hour?
+    - Do different packages take different durations?
+    - Lama tak sesi ni?
+    - Sesi ni ambik masa berapa lama?
+
+- intent: ask_palette_given
+  examples: |
+    - Will I get a colour card?
+    - Do I receive a swatch guide?
+    - Will I have something to bring home?
+    - Is there a colour chart included?
+    - Do I get a personalised palette?
+    - Will I get a printed or digital colour reference?
+    - Ada dapat colour guide ke?
+    - Korang bagi kad warna?
+    - Do I get anything physical?
+
+- intent: ask_virtual_session_available
+  examples: |
+    - Do you offer virtual sessions?
+    - Can this be done online?
+    - Is there an option for remote consultation?
+    - Can I do the analysis through Zoom?
+    - Can I attend from another state?
+    - Is WhatsApp video accepted?
+    - Can I book a digital session?
+    - Boleh buat online je?
+    - Guna video call boleh ke?
+    - Kalau saya dekat Sabah, still boleh buat ke?
+
+- intent: ask_what_to_wear
+  examples: |
+    - What should I wear to the session?
+    - Should I wear white?
+    - Do I need to dress a certain way?
+    - Is there a dress code?
+    - Should I avoid colours?
+    - Can I wear patterns?
+    - Should I bring a scarf?
+    - Is a white t-shirt required?
+    - Kena pakai baju plain ke?
+    - Sesi ni kena pakai tudung putih ke?
+
+- intent: ask_is_color_analysis_inclusive
+  examples: |
+    - Who is colour analysis for?
+    - Is this only for models or influencers?
+    - Can men do colour analysis?
+    - Is it okay for hijabis?
+    - Do you accept working adults?
+    - Is this suitable for students?
+    - Do older people benefit too?
+    - Can I do this if I don't wear makeup?
+    - Lelaki boleh join ke?
+    - Boleh ke kalau saya tak pakai makeup langsung?
+
+- intent: ask_post_session_recommendations
+  examples: |
+    - Will I know what colours suit me after?
+    - Do I get recommendations after the session?
+    - What happens after the session?
+    - Is there a post-consultation guide?
+    - Do I get a report?
+    - Lepas sesi tu saya dapat apa?
+    - Boleh ke rujuk result tu balik nanti?
+    - Do I get digital notes?
+
+- intent: ask_pricing_or_packages
+  examples: |
+    - How much does it cost?
+    - What are your packages?
+    - Do you have different price tiers?
+    - Is there a student discount?
+    - Can I choose the package on the spot?
+    - What’s the most popular option?
+    - Do you offer bundle packages?
+    - Price dia macam mana?
+    - Ada pakej lain tak?
+    - Pakej premium tu apa beza?
+
+- intent: nlu_fallback
+  examples: |
+    - asdfasdf
+    - qwertyuiop
+    - huh?
+    - ????
+    - what even is this
+    - ugh idk
+    - what is your name lol
+    - ajshdkashd
+    - this makes no sense
+    - what's 2+2
+    - are you single?
+    - ok cool thanks bye
+    - tell me a joke
+    - unicorn dance?
+    - random message la
+    - 123456789
+    - 🦄💫✨
+

@@ -1,0 +1,154 @@
+{
+  "business_name": "EVAS Educations",
+  "about": "EVAS Educations is a Malaysian image consulting firm that empowers individuals to express their best selves through professional colour analysis, wardrobe management, and personal styling. EVAS serves both individuals and professionals, including training stylists through its Train-the-Trainer programs.",
+  "core_services": [
+    {
+      "name": "Colour Analysis Only",
+      "price": "RM900",
+      "includes": [
+        "12 seasonal colour analysis",
+        "makeup audit & advice",
+        "hair & nail colour advice",
+        "wardrobe management audit",
+        "accessories audit",
+        "personalised report",
+        "14 days post-analysis consultation & report"
+      ]
+    },
+    {
+      "name": "Colour Analysis + Body Shape Analysis",
+      "price": "RM1700",
+      "includes": [
+        "12 seasonal colour analysis",
+        "makeup audit & advice",
+        "hair & nail colour advice",
+        "wardrobe management audit",
+        "accessories audit",
+        "personalised report",
+        "face shape analysis & makeup, hairstyle, tudung recommendation",
+        "body type & fabric choices",
+        "body shape & clothing details (top, bottom, dress, skirt & accessories)",
+        "golden mean ratio (long body/long legs)",
+        "dress your way recommendation",
+        "30 days post-analysis consultation & report"
+      ]
+    },
+    {
+      "name": "Full Analysis + Personal Shopping",
+      "price": "RM2500",
+      "includes": [
+        "12 seasonal colour analysis",
+        "makeup audit & advice",
+        "hair & nail colour advice",
+        "wardrobe management audit",
+        "accessories audit",
+        "personalised report",
+        "face shape analysis & makeup, hairstyle, tudung recommendation",
+        "body type & fabric choices",
+        "body shape & clothing details (top, bottom, dress, skirt & accessories)",
+        "golden mean ratio (long body/long legs)",
+        "dress your way recommendation",
+        "5-hour personal shopping in Klang Valley",
+        "purchase list after analysis",
+        "30 days post-analysis consultation & report"
+      ]
+    }
+  ],
+  "promo_packages": [
+    {
+      "name": "Diwali Special (4 Season Colour Analysis)",
+      "price": "RM750/pax",
+      "condition": "Special price for 2 pax and above. Usual price RM900.",
+      "bonus": "7 days of complimentary one-on-one consultation"
+    },
+    {
+      "name": "Seasonal Colour Card",
+      "price": "RM35",
+      "description": "A portable card showing 4 season palettes (Spring, Summer, Autumn, Winter). Useful for choosing hair colour, scarf, cosmetics, accessories, and clothing."
+    },
+    {
+      "name": "Trainer Colour Tools",
+      "price": "RM499",
+      "description": "Tools for stylists to conduct 4 Seasons Colour Analysis using visual frames and colour bands."
+    }
+  ],
+  "train_the_trainer_programs": [
+    {
+      "name": "12 Seasonal Colour & Face/Body Dimensions",
+      "price": "RM13,088",
+      "includes": [
+        "4 or 12 seasonal colour analysis techniques",
+        "face shape and body dimension analysis",
+        "recommendation skills for hair/scarf/cosmetics/accessories",
+        "TOP system for selecting professional clothing",
+        "digital branding colour strategy",
+        "corporate/university workshops",
+        "trainer set (fabric drapes, colour cards, makeup guides)"
+      ],
+      "locations": [
+        "Kota Kinabalu (Oct 28-30, 2025)",
+        "Singapore (Nov/Dec 2025)"
+      ]
+    }
+  ],
+  "unique_values": [
+    "Empowers clients to build sustainable, functional wardrobes",
+    "Focuses on individual confidence through power colour discovery",
+    "Provides actionable personalised reports",
+    "Offers consultation continuity (up to 30 days post-session)",
+    "Supports both men and women"
+  ],
+  "faq_qa": {
+    "ask_what_are_color_seasons": {
+      "explanation": "The 4 seasonal colour types—Spring, Summer, Autumn, and Winter—are systems used to categorize people’s natural coloring. Each season reflects a specific mix of undertone (warm/cool), brightness, and depth. For example, 'Winter' types look great in cool, clear colours like jewel tones, while 'Autumn' types suit warm, earthy shades like olive and mustard."
+    },
+    "ask_season_subtypes": {
+      "explanation": "Each colour season has subtypes such as Soft, Deep, Cool, or Warm. For instance, a Soft Autumn is more muted, while a Deep Winter suits high contrast. These subcategories help fine-tune your palette for even more precision."
+    },
+    "ask_how_is_color_season_determined": {
+      "explanation": "We analyze your skin undertone, eye colour, natural hair shade, and how your face reacts to different draped fabrics under natural light. The test is done barefaced to capture your authentic undertone, and we may use visual comparison tools to confirm warm vs cool categorization."
+    },
+    "ask_makeup_requirement": {
+      "explanation": "We recommend arriving with no foundation, lipstick, or blush. Light concealer is okay, but ideally come barefaced. This helps us observe your true skin undertone and avoids colour interference."
+    },
+    "ask_session_duration": {
+      "explanation": "A full colour analysis session takes between 60 to 90 minutes. Packages that include body shape or personal shopping may take up to 3–5 hours in total."
+    },
+    "ask_palette_given": {
+      "explanation": "Yes! You’ll receive a personalised colour palette card (physical or digital) with your best colours based on the seasonal analysis. You can use this to guide your wardrobe, makeup, or accessory choices."
+    },
+    "ask_virtual_session_available": {
+      "explanation": "Yes, virtual consultations are available via Zoom or WhatsApp video. We guide you on how to take proper lighting selfies in advance for analysis, and results will be emailed along with your report and palette."
+    },
+    "ask_what_to_wear": {
+      "explanation": "Wear a white or neutral top with minimal pattern. Avoid strong colours or heavy accessories as they may reflect on your face. If you’re a hijabi, bring a plain white or beige scarf, or we’ll provide one."
+    },
+    "ask_is_color_analysis_inclusive": {
+      "explanation": "Yes, our services are for everyone — students, working adults, men, hijabis, and even those who don’t wear makeup. Image consulting is about self-confidence, not beauty standards."
+    },
+    "ask_post_session_recommendations": {
+      "explanation": "After your session, you’ll receive a customised report with styling advice, recommended colours, accessory tips, and wardrobe planning notes. Premium packages include 14–30 days of post-consultation support."
+    },
+    "ask_payment_method": {
+      "explanation": "We currently accept online bank transfers (FPX). Payment is required upfront to secure your slot. Please screenshot your transfer and DM us on WhatsApp for confirmation."
+    },
+    "ask_location_or_availability": {
+      "explanation": "EVAS Educations is based in Klang Valley, Selangor. Face-to-face sessions are available within this area. Virtual consultations are available nationwide. For special outstation bookings, extra fees may apply depending on travel and setup needs."
+    },
+    "ask_rescheduling_or_cancellation": {
+      "explanation": "We allow one rescheduling with at least 48 hours' notice. Cancellations made less than 24 hours in advance are non-refundable. For rescheduling, kindly WhatsApp us as early as possible."
+    },
+    "ask_target_audience": {
+      "explanation": "Our services are for everyone — students, professionals, men, women, hijabis, and non-hijabis. We also accommodate clients who don't usually wear makeup or prefer modest fashion."
+    },
+    "ask_extras_or_addons": {
+      "explanation": "Yes! Add-on services include extended personal shopping hours, wardrobe detox, makeup tutorials, and group sessions. Let us know your goals and we can tailor the session to your needs."
+    }
+  },
+  "contact": {
+    "whatsapp": "+60 16-234 4208",
+    "email": "evaseducations@gmail.com",
+    "location": "Klang Valley, Selangor",
+    "online_available": true
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_virtual_session_available\"}}]": "utter_ask_virtual_session_available",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_virtual_session_available\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_virtual_session_available\"}, \"user\": {\"intent\": \"ask_virtual_session_available\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_session_duration\"}}]": "utter_ask_session_duration",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_session_duration\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_session_duration\"}, \"user\": {\"intent\": \"ask_session_duration\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_how_is_color_season_determined\"}}]": "utter_ask_how_is_color_season_determined",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_how_is_color_season_determined\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_how_is_color_season_determined\"}, \"user\": {\"intent\": \"ask_how_is_color_season_determined\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_post_session_recommendations\"}}]": "utter_ask_post_session_recommendations",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_post_session_recommendations\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_post_session_recommendations\"}, \"user\": {\"intent\": \"ask_post_session_recommendations\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_is_color_analysis_inclusive\"}}]": "utter_ask_is_color_analysis_inclusive",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_is_color_analysis_inclusive\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_is_color_analysis_inclusive\"}, \"user\": {\"intent\": \"ask_is_color_analysis_inclusive\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_season_subtypes\"}}]": "utter_ask_season_subtypes",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_season_subtypes\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_season_subtypes\"}, \"user\": {\"intent\": \"ask_season_subtypes\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nlu_fallback\"}}]": "action_llm_fallback",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nlu_fallback\"}}, {\"prev_action\": {\"action_name\": \"action_llm_fallback\"}, \"user\": {\"intent\": \"nlu_fallback\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_palette_given\"}}]": "utter_ask_palette_given",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_palette_given\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_palette_given\"}, \"user\": {\"intent\": \"ask_palette_given\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_what_to_wear\"}}]": "utter_ask_what_to_wear",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_what_to_wear\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_what_to_wear\"}, \"user\": {\"intent\": \"ask_what_to_wear\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_what_are_color_seasons\"}}]": "utter_ask_what_are_color_seasons",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_what_are_color_seasons\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_what_are_color_seasons\"}, \"user\": {\"intent\": \"ask_what_are_color_seasons\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_makeup_requirement\"}}]": "utter_ask_makeup_requirement",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_makeup_requirement\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_makeup_requirement\"}, \"user\": {\"intent\": \"ask_makeup_requirement\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent back",
+      "predicting default action with intent session_start",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nlu_fallback\"}}, {\"prev_action\": {\"action_name\": \"action_llm_fallback\"}, \"user\": {\"intent\": \"nlu_fallback\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nlu_fallback\"}}]",
+      "predicting default action with intent restart"
+    ]
+  }
+}

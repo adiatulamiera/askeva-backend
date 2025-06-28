@@ -1,0 +1,53 @@
+{
+  "text": {
+    "asdfasdf": 0,
+    "qwertyuiop": 4,
+    "huh": 2,
+    "sjkdflkjsd": 5,
+    "what": 7,
+    "even": 1,
+    "is": 3,
+    "this": 6
+  },
+  "intent": {
+    "nlu_fallback": 10,
+    "ask_how_is_color_season_determined": 0,
+    "ask_is_color_analysis_inclusive": 1,
+    "ask_makeup_requirement": 2,
+    "ask_palette_given": 3,
+    "ask_post_session_recommendations": 4,
+    "ask_season_subtypes": 5,
+    "ask_session_duration": 6,
+    "ask_virtual_session_available": 7,
+    "ask_what_are_color_seasons": 8,
+    "ask_what_to_wear": 9
+  },
+  "response": null,
+  "action_name": {
+    "action_listen": 6,
+    "action_restart": 8,
+    "action_session_start": 10,
+    "action_default_fallback": 4,
+    "action_deactivate_loop": 1,
+    "action_revert_fallback_events": 9,
+    "action_default_ask_affirmation": 2,
+    "action_default_ask_rephrase": 3,
+    "action_two_stage_fallback": 11,
+    "action_unlikely_intent": 12,
+    "action_back": 0,
+    "action_extract_slots": 5,
+    "action_llm_fallback": 7,
+    "utter_ask_how_is_color_season_determined": 13,
+    "utter_ask_is_color_analysis_inclusive": 14,
+    "utter_ask_makeup_requirement": 15,
+    "utter_ask_palette_given": 16,
+    "utter_ask_post_session_recommendations": 17,
+    "utter_ask_season_subtypes": 18,
+    "utter_ask_session_duration": 19,
+    "utter_ask_virtual_session_available": 20,
+    "utter_ask_what_are_color_seasons": 21,
+    "utter_ask_what_to_wear": 22
+  },
+  "action_text": null,
+  "intent_response_key": null
+}

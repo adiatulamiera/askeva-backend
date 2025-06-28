@@ -1,0 +1,15 @@
+# Ignore Python virtual env
+rasa_env/
+__pycache__/
+*.pyc
+
+# Logs and temp files
+*.log
+*.tmp
+
+# VS Code & OS files
+.vscode/
+.DS_Store
+
+# Node modules (if any)
+node_modules/

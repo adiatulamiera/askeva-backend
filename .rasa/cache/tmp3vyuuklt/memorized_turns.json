@@ -1,0 +1,25 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJwtysEJgDAMheFVOoATdBWRECWHYEylSXsp3d2I3t7P+9YxlzTuSh3wcC6a0/gGKF6U0x/C5qRhm1ENwxrpcdsJnas3FDAyey12ZMFdaM7tAfnrJXY=": "utter_ask_virtual_session_available",
+    "eJyVjUEKgDAMBL/SB/iCfkUkRMkhGKM0aS+lf7eiZ8XbDjvsjrUNoR6JCuDivGsM9Q6guFEMDwibk3Y3G6XusHb0XtsKhZNnFDAyu1wsyIKzUPvYzu6U4H3i7+N0Ap6rUmo=": "action_listen",
+    "eJwtisEJgDAMAFfpAE7QVURCKAGLNSlJ1Efp7gb0d8fdOuaSRle6AYtX4ZzGB8B4Uk6/tGpOHO9lpPFUDvXIdsCzowMqQZEmCkZowjbn9gKHqCQw": "utter_ask_what_are_color_seasons",
+    "eJyVjVEKgDAMQ6+yA3gCryJSyig4nK20nX6M3d2Bfiv+JeQlmWobQt2VDsDoSXgM9RbAuNEYHpOTOXFni5F2JnG33mNb4VzQAZUgShYFIzRhax/DxZ0UXvq/vuYLr2BOmA==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB1fnpFYEl+SH1+emlhUWxsLADKcIBA=": "utter_ask_what_to_wear",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB1fnpFYEl+SH1+emlhUS8C40pKS1KJ4DF1EmBsLABL/Qjg=": "action_listen",
+    "eJwtytEJgDAMRdFVOoATdBWREEI+gjGVpi1I6e4G9O8d3t3n2tK8Kw9AalIsp/kNMLw4px8q3tii7c41GrFgi9tPEAcqWiqgoT4eFCPtLoPXOl5DnSZa": "utter_ask_is_color_analysis_inclusive",
+    "eJyVjc0JgDAMhVfpAE7gKiIhlByCNZUmLUjp7gb0Xry9j/e39bGEfhVqgNE4yxr6K0DwpDV8kFiNxLNVqXiGxdHc1gNYIeaUC6BgutWRJaaq3GhM1qsZeW8y8v91fwCfnFUW": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB1fnFpcDFKTUlqUCFJcWxsLALfIIdU=": "utter_ask_session_duration",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB1fnFpcDFKTUlqUCFJcS8DI0pKS1KJ4rDqJND8WAG1iR4c=": "action_listen",
+    "eJwtytEJgDAMRdFVOoATdBWRUNqAwTaRpOpH6e4G9O9d3lnHXMI4FW9IuZNwDOMbwKlhDH9Uso7s9jJUN8Se3W87YJcHyCBLFQXDZO4LdtRGjGXO7QW4NCd7": "utter_ask_how_is_color_season_determined",
+    "eJydjUEKgDAMBL/SB/iCfkUklDZg0KbSpHoo/t2A3hVvO+ywO/ZzcH2ruEOISoW963cADhm9e2AlUWRzm2A1h9hQrZYF5nIACcSylgqCQcxPqFgzMabz5aCpmfBh59f3dAGjB1h5": "action_listen",
+    "eJwti0EOgCAMBL/CA3wBXzGmIdADUQphqxfC3y3R2052Zh9zc6N1fihEzVW8G98gCYW9++HKUBZzb3A3J4uh2o2TWoUSGFhi51hLYUlhdZjzeAFtsybc": "utter_ask_post_session_recommendations",
+    "eJydjVEOgCAMQ6/CATwBVzFmIbgPogyyDX8Id3dE/038a9PXdu1jcb0yXhCipkLe9UcAhYzeveZMokjGNkE2JpFZtVgOqEUUBEUmyBhLzkh7mD0ZH/NNFRk+V378bje+hFac": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fm5idWloQX5RaWJpZlJoLFK+tjQUA+zUinw==": "utter_ask_makeup_requirement",
+    "eJyNTcsJgDAMXaUDOEFXEQlFcgi1saaJl9LdDehV9Pb+b+5jCr0KnpBWpZ1j6DcATgVjeMhGTZE9aw3FM8RO1e2WoaSMVkHwMBIsro+PUVNFgZfu74/lAh+nSeU=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB1fkJiTWlKSGp+eWQZUUhsLAFJ8IHM=": "utter_ask_palette_given",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB1fkJiTWlKSGp+eWQZUQsC8UqDKonhMbcSYHAsA2ltDYQ==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB1fnJpYDFRSXJpUUlmQWlxbGwsAleohcw==": "utter_ask_season_subtypes",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB1fnJpYDFRSXJpUUlmQWlxLwMTSkpLUonhsGokzPRYAmN9GYQ==": "action_listen"
+  }
+}

@@ -1,0 +1,21 @@
+language: en
+
+pipeline:
+- name: WhitespaceTokenizer
+- name: RegexFeaturizer
+- name: LexicalSyntacticFeaturizer
+- name: CountVectorsFeaturizer
+- name: DIETClassifier
+  epochs: 100
+- name: EntitySynonymMapper
+- name: FallbackClassifier
+  threshold: 0.3
+  ambiguity_threshold: 0.1
+
+policies:
+- name: MemoizationPolicy
+- name: RulePolicy
+  core_fallback_action_name: "action_llm_fallback"
+  core_fallback_threshold: 0.3
+  enable_fallback_prediction: true
+assistant_id: 20250628-211217-weighted-arcade
