@@ -43,4 +43,7 @@ Avoid using Python versions higher than 3.10 for compatibility.
 
 Use rasa run --enable-api if connecting with the frontend.
 
+⚠️ For the purpose of this academic project, the Gemini API key is temporarily hardcoded inside `actions.py`. This is not recommended for production environments.
+
+
 
