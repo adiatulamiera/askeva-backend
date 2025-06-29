@@ -1,0 +1,84 @@
+version: "3.1"
+
+nlu:
+
+- intent: ask_pricing
+  examples: |
+    - Could you break down the cost for me?
+    - Is there a price list I can refer to?
+    - What are the charges for each package?
+    - Do you have different prices for online sessions?
+    - How much do I need to budget for this?
+
+- intent: ask_color_analysis
+  examples: |
+    - What exactly happens during color analysis?
+    - How do you figure out someone’s color season?
+    - Can you explain what a personal color palette means?
+    - I heard about seasonal colors — what are they?
+    - How is my color tone assessed?
+
+- intent: ask_virtual_session
+  examples: |
+    - Do you provide online consultations?
+    - Is it possible to do this remotely?
+    - Can I join the session from home?
+    - Are Zoom calls an option?
+    - Do you offer any virtual service?
+
+- intent: ask_makeup_tips
+  examples: |
+    - Which makeup shades would look best on me?
+    - Can you suggest lip colors for my tone?
+    - What kind of blush suits warm undertones?
+    - Any makeup advice based on my season?
+    - Do you give guidance on eye shadow choices?
+
+- intent: ask_session_duration
+  examples: |
+    - How long is a typical session?
+    - Will it take more than an hour?
+    - What's the expected time for consultation?
+    - Is it a short or long session?
+    - How much time should I set aside?
+
+- intent: ask_palette_given
+  examples: |
+    - Will I receive my palette afterwards?
+    - Do I get a color guide to take home?
+    - Is a personal color palette included?
+    - Will you send me something after the session?
+    - Do I get to keep the analysis results?
+
+- intent: ask_what_to_wear
+  examples: |
+    - What clothes should I choose for my tone?
+    - Any styling advice for warm autumns?
+    - What’s suitable for someone with cool undertones?
+    - Which colors match olive skin?
+    - What wardrobe suits my season?
+
+- intent: ask_is_service_inclusive
+  examples: |
+    - Is the service suitable for Muslim women?
+    - Will my privacy be respected?
+    - Is it hijabi-friendly?
+    - Will the session be in a private room?
+    - Is it open to everyone?
+
+- intent: ask_post_session_support
+  examples: |
+    - Do you help after the session ends?
+    - Will you be available if I have questions later?
+    - Can I reach out for follow-up advice?
+    - Do you offer any post-consultation support?
+    - What happens after the session?
+
+- intent: ask_reschedule_policy
+  examples: |
+    - What if I need to change the date?
+    - Can I move my appointment to another day?
+    - Is rescheduling allowed?
+    - What’s your policy on missed sessions?
+    - How do I postpone my consultation?
+

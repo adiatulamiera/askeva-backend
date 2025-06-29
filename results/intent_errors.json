@@ -1,0 +1,498 @@
+[
+  {
+    "text": "What should I wear to the session?",
+    "intent": "ask_what_to_wear",
+    "intent_prediction": {
+      "name": "ask_makeup_requirement",
+      "confidence": 0.27697432041168213
+    }
+  },
+  {
+    "text": "Can I wear patterns?",
+    "intent": "ask_what_to_wear",
+    "intent_prediction": {
+      "name": "ask_virtual_session_available",
+      "confidence": 0.2705158591270447
+    }
+  },
+  {
+    "text": "asdfasdf",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "ask_is_color_analysis_inclusive",
+      "confidence": 0.002477407455444336
+    }
+  },
+  {
+    "text": "qwertyuiop",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "ask_is_color_analysis_inclusive",
+      "confidence": 0.005271386820822954
+    }
+  },
+  {
+    "text": "huh?",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "ask_is_color_analysis_inclusive",
+      "confidence": 0.003298421623185277
+    }
+  },
+  {
+    "text": "????",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.024521583691239357
+    }
+  },
+  {
+    "text": "what even is this",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "ask_is_color_analysis_inclusive",
+      "confidence": 0.017707590013742447
+    }
+  },
+  {
+    "text": "ugh idk",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "ask_is_color_analysis_inclusive",
+      "confidence": 0.0010956941405311227
+    }
+  },
+  {
+    "text": "what is your name lol",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "ask_post_session_recommendations",
+      "confidence": 0.005233893636614084
+    }
+  },
+  {
+    "text": "ajshdkashd",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "ask_is_color_analysis_inclusive",
+      "confidence": 0.0034213848412036896
+    }
+  },
+  {
+    "text": "this makes no sense",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "ask_is_color_analysis_inclusive",
+      "confidence": 0.002743871184065938
+    }
+  },
+  {
+    "text": "what's 2+2",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "ask_is_color_analysis_inclusive",
+      "confidence": 0.0025614688638597727
+    }
+  },
+  {
+    "text": "are you single?",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "ask_is_color_analysis_inclusive",
+      "confidence": 0.011917756870388985
+    }
+  },
+  {
+    "text": "ok cool thanks bye",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "ask_is_color_analysis_inclusive",
+      "confidence": 0.0042882501147687435
+    }
+  },
+  {
+    "text": "tell me a joke",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "ask_is_color_analysis_inclusive",
+      "confidence": 0.006370499264448881
+    }
+  },
+  {
+    "text": "unicorn dance?",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "ask_is_color_analysis_inclusive",
+      "confidence": 0.0018148201052099466
+    }
+  },
+  {
+    "text": "random message la",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "ask_is_color_analysis_inclusive",
+      "confidence": 0.0019223871640861034
+    }
+  },
+  {
+    "text": "123456789",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "ask_is_color_analysis_inclusive",
+      "confidence": 0.0011876535136252642
+    }
+  },
+  {
+    "text": "🦄💫✨",
+    "intent": "nlu_fallback",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.024521583691239357
+    }
+  },
+  {
+    "text": "Could you break down the cost for me?",
+    "intent": "ask_pricing",
+    "intent_prediction": {
+      "name": "ask_pricing_or_packages",
+      "confidence": 0.5052535533905029
+    }
+  },
+  {
+    "text": "Is there a price list I can refer to?",
+    "intent": "ask_pricing",
+    "intent_prediction": {
+      "name": "ask_makeup_requirement",
+      "confidence": 0.5919418334960938
+    }
+  },
+  {
+    "text": "What are the charges for each package?",
+    "intent": "ask_pricing",
+    "intent_prediction": {
+      "name": "ask_pricing_or_packages",
+      "confidence": 0.3760394752025604
+    }
+  },
+  {
+    "text": "Do you have different prices for online sessions?",
+    "intent": "ask_pricing",
+    "intent_prediction": {
+      "name": "ask_virtual_session_available",
+      "confidence": 0.7133891582489014
+    }
+  },
+  {
+    "text": "How much do I need to budget for this?",
+    "intent": "ask_pricing",
+    "intent_prediction": {
+      "name": "ask_is_color_analysis_inclusive",
+      "confidence": 0.364515483379364
+    }
+  },
+  {
+    "text": "What exactly happens during color analysis?",
+    "intent": "ask_color_analysis",
+    "intent_prediction": {
+      "name": "ask_post_session_recommendations",
+      "confidence": 0.2447551041841507
+    }
+  },
+  {
+    "text": "How do you figure out someone’s color season?",
+    "intent": "ask_color_analysis",
+    "intent_prediction": {
+      "name": "ask_how_is_color_season_determined",
+      "confidence": 0.5281571745872498
+    }
+  },
+  {
+    "text": "Can you explain what a personal color palette means?",
+    "intent": "ask_color_analysis",
+    "intent_prediction": {
+      "name": "ask_what_are_color_seasons",
+      "confidence": 0.2541728913784027
+    }
+  },
+  {
+    "text": "I heard about seasonal colors — what are they?",
+    "intent": "ask_color_analysis",
+    "intent_prediction": {
+      "name": "ask_what_are_color_seasons",
+      "confidence": 0.581355631351471
+    }
+  },
+  {
+    "text": "How is my color tone assessed?",
+    "intent": "ask_color_analysis",
+    "intent_prediction": {
+      "name": "ask_how_is_color_season_determined",
+      "confidence": 0.5945068001747131
+    }
+  },
+  {
+    "text": "Do you provide online consultations?",
+    "intent": "ask_virtual_session",
+    "intent_prediction": {
+      "name": "ask_virtual_session_available",
+      "confidence": 0.458218514919281
+    }
+  },
+  {
+    "text": "Is it possible to do this remotely?",
+    "intent": "ask_virtual_session",
+    "intent_prediction": {
+      "name": "ask_is_color_analysis_inclusive",
+      "confidence": 0.174266055226326
+    }
+  },
+  {
+    "text": "Can I join the session from home?",
+    "intent": "ask_virtual_session",
+    "intent_prediction": {
+      "name": "ask_makeup_requirement",
+      "confidence": 0.2671358585357666
+    }
+  },
+  {
+    "text": "Are Zoom calls an option?",
+    "intent": "ask_virtual_session",
+    "intent_prediction": {
+      "name": "ask_virtual_session_available",
+      "confidence": 0.8984516859054565
+    }
+  },
+  {
+    "text": "Do you offer any virtual service?",
+    "intent": "ask_virtual_session",
+    "intent_prediction": {
+      "name": "ask_virtual_session_available",
+      "confidence": 0.7177332043647766
+    }
+  },
+  {
+    "text": "Which makeup shades would look best on me?",
+    "intent": "ask_makeup_tips",
+    "intent_prediction": {
+      "name": "ask_makeup_requirement",
+      "confidence": 0.34576085209846497
+    }
+  },
+  {
+    "text": "Can you suggest lip colors for my tone?",
+    "intent": "ask_makeup_tips",
+    "intent_prediction": {
+      "name": "ask_how_is_color_season_determined",
+      "confidence": 0.5229601860046387
+    }
+  },
+  {
+    "text": "What kind of blush suits warm undertones?",
+    "intent": "ask_makeup_tips",
+    "intent_prediction": {
+      "name": "ask_season_subtypes",
+      "confidence": 0.9923591017723083
+    }
+  },
+  {
+    "text": "Any makeup advice based on my season?",
+    "intent": "ask_makeup_tips",
+    "intent_prediction": {
+      "name": "ask_makeup_requirement",
+      "confidence": 0.5372504591941833
+    }
+  },
+  {
+    "text": "Do you give guidance on eye shadow choices?",
+    "intent": "ask_makeup_tips",
+    "intent_prediction": {
+      "name": "ask_how_is_color_season_determined",
+      "confidence": 0.4044574797153473
+    }
+  },
+  {
+    "text": "What's the expected time for consultation?",
+    "intent": "ask_session_duration",
+    "intent_prediction": {
+      "name": "ask_is_color_analysis_inclusive",
+      "confidence": 0.205303356051445
+    }
+  },
+  {
+    "text": "Will you send me something after the session?",
+    "intent": "ask_palette_given",
+    "intent_prediction": {
+      "name": "ask_post_session_recommendations",
+      "confidence": 0.516076922416687
+    }
+  },
+  {
+    "text": "Do I get to keep the analysis results?",
+    "intent": "ask_palette_given",
+    "intent_prediction": {
+      "name": "ask_makeup_requirement",
+      "confidence": 0.17403458058834076
+    }
+  },
+  {
+    "text": "What clothes should I choose for my tone?",
+    "intent": "ask_what_to_wear",
+    "intent_prediction": {
+      "name": "ask_how_is_color_season_determined",
+      "confidence": 0.3014305531978607
+    }
+  },
+  {
+    "text": "Any styling advice for warm autumns?",
+    "intent": "ask_what_to_wear",
+    "intent_prediction": {
+      "name": "ask_season_subtypes",
+      "confidence": 0.37271103262901306
+    }
+  },
+  {
+    "text": "What’s suitable for someone with cool undertones?",
+    "intent": "ask_what_to_wear",
+    "intent_prediction": {
+      "name": "ask_is_color_analysis_inclusive",
+      "confidence": 0.38354429602622986
+    }
+  },
+  {
+    "text": "Which colors match olive skin?",
+    "intent": "ask_what_to_wear",
+    "intent_prediction": {
+      "name": "nlu_fallback",
+      "confidence": 0.11625320464372635
+    }
+  },
+  {
+    "text": "What wardrobe suits my season?",
+    "intent": "ask_what_to_wear",
+    "intent_prediction": {
+      "name": "ask_how_is_color_season_determined",
+      "confidence": 0.44043686985969543
+    }
+  },
+  {
+    "text": "Is the service suitable for Muslim women?",
+    "intent": "ask_is_service_inclusive",
+    "intent_prediction": {
+      "name": "ask_is_color_analysis_inclusive",
+      "confidence": 0.6461846232414246
+    }
+  },
+  {
+    "text": "Will my privacy be respected?",
+    "intent": "ask_is_service_inclusive",
+    "intent_prediction": {
+      "name": "ask_makeup_requirement",
+      "confidence": 0.27378761768341064
+    }
+  },
+  {
+    "text": "Is it hijabi-friendly?",
+    "intent": "ask_is_service_inclusive",
+    "intent_prediction": {
+      "name": "ask_is_color_analysis_inclusive",
+      "confidence": 0.16497977077960968
+    }
+  },
+  {
+    "text": "Will the session be in a private room?",
+    "intent": "ask_is_service_inclusive",
+    "intent_prediction": {
+      "name": "ask_season_subtypes",
+      "confidence": 0.22923779487609863
+    }
+  },
+  {
+    "text": "Is it open to everyone?",
+    "intent": "ask_is_service_inclusive",
+    "intent_prediction": {
+      "name": "ask_makeup_requirement",
+      "confidence": 0.3759288489818573
+    }
+  },
+  {
+    "text": "Do you help after the session ends?",
+    "intent": "ask_post_session_support",
+    "intent_prediction": {
+      "name": "ask_post_session_recommendations",
+      "confidence": 0.42598554491996765
+    }
+  },
+  {
+    "text": "Will you be available if I have questions later?",
+    "intent": "ask_post_session_support",
+    "intent_prediction": {
+      "name": "ask_palette_given",
+      "confidence": 0.2123384326696396
+    }
+  },
+  {
+    "text": "Can I reach out for follow-up advice?",
+    "intent": "ask_post_session_support",
+    "intent_prediction": {
+      "name": "ask_virtual_session_available",
+      "confidence": 0.3280904293060303
+    }
+  },
+  {
+    "text": "Do you offer any post-consultation support?",
+    "intent": "ask_post_session_support",
+    "intent_prediction": {
+      "name": "ask_virtual_session_available",
+      "confidence": 0.26594841480255127
+    }
+  },
+  {
+    "text": "What happens after the session?",
+    "intent": "ask_post_session_support",
+    "intent_prediction": {
+      "name": "ask_post_session_recommendations",
+      "confidence": 0.6797800064086914
+    }
+  },
+  {
+    "text": "What if I need to change the date?",
+    "intent": "ask_reschedule_policy",
+    "intent_prediction": {
+      "name": "ask_what_are_color_seasons",
+      "confidence": 0.252410352230072
+    }
+  },
+  {
+    "text": "Can I move my appointment to another day?",
+    "intent": "ask_reschedule_policy",
+    "intent_prediction": {
+      "name": "ask_makeup_requirement",
+      "confidence": 0.7150548696517944
+    }
+  },
+  {
+    "text": "Is rescheduling allowed?",
+    "intent": "ask_reschedule_policy",
+    "intent_prediction": {
+      "name": "ask_makeup_requirement",
+      "confidence": 0.26991456747055054
+    }
+  },
+  {
+    "text": "What’s your policy on missed sessions?",
+    "intent": "ask_reschedule_policy",
+    "intent_prediction": {
+      "name": "ask_pricing_or_packages",
+      "confidence": 0.23445500433444977
+    }
+  },
+  {
+    "text": "How do I postpone my consultation?",
+    "intent": "ask_reschedule_policy",
+    "intent_prediction": {
+      "name": "ask_post_session_recommendations",
+      "confidence": 0.21921293437480927
+    }
+  }
+]
